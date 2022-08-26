@@ -1,0 +1,629 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+body{font-family:Verdana, Geneva, Tahoma, sans-serif;}
+ .divbi{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/b85694339594cafd27a4bbf0bafa29ea.jpeg);
+    background-size: contain;
+    position: relative;
+ } 
+ .divheader{position: absolute; z-index: 15;}
+.headch{
+width: 100%;
+height: 50px;
+background-color: rgba(0,0,0,0.7);
+position: fixed;
+top: 0;
+}
+ .im1 {
+    width: 200px;
+    height: 50px;
+   margin-left: 100px;
+ }
+ .divheader ul{
+    margin-left: 700px;
+    margin-top: -35px;
+}
+ .divheader ul li {
+    list-style-type: none;
+    float: left;
+    margin-left: 40px;
+ }
+ .divheader ul li a{text-decoration: none;color: aqua;}
+ .li1 {position: relative; height: 6px;}
+ .li1:after {
+     content: "";
+     position: absolute;
+     width: 0%;
+     height: 100%;
+     top: 20;
+     left: 0;
+     background-color: red;
+ }
+ .li1:hover:after {
+     width: 100%;
+     height: 100%;
+     transition: 0.8s;
+ }
+ .pa1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.pa1ch1 {
+    font-size:x-large;
+    color: antiquewhite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.pa1ch1 p{text-align: center; }
+.pa1btn1 {
+    width: 150px;
+    height: 48px;
+    background-color: rgb(238, 234, 234);
+    border-radius: 11px;
+    border: 0;
+    font-size: 19px;
+    margin: 30px 120px;
+}
+.pa1btn2 {
+    width: 150px;
+    height: 48px;
+    background-color: rgb(43, 39, 235);
+    border-radius: 11px;
+    border: 0;
+    font-size: 19px;
+    margin-left: -80px;
+    color: white;
+}
+.pa1btn1:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.pa1btn2:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+/* ---------------- end perant 1 -------------------------- */
+ .title1 { 
+    text-align: center;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.line {
+    width: 60px;
+    height: 4px;
+    background-color: rgb(42, 16, 187);
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 5px;
+} 
+.wel-content {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+}
+.wel-items {
+    border: 1px solid gray ;
+    float: left;
+    width: 30%;
+    height: 225px;
+    position: relative; 
+}
+.wel-cer {position: absolute; z-index: 3;}
+.wel-item:after{
+    content: " ";
+    position: absolute; 
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0,0.8);
+    color: aliceblue; 
+}
+.wel-item:hover::after {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+ }
+ .wel-item:hover  {
+    transition: 1000ms;
+    color: white;
+}
+.i3 { 
+    font-size: 30px;
+    color: slateblue;
+    padding: 15px 135px;    
+}
+.title2{
+    display: block;
+    text-align: center;
+    text-transform: capitalize; 
+}
+.p1 {
+    color: gray;
+    padding: 20px 30px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.link1{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+/* ---------------- end perant 2-------------------------- */
+.pa3 {
+    width: 100vw;
+    height: 800px;
+    background-color: gainsboro;
+    overflow: auto;
+}
+.pa3-content {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+.wo-item {
+    width: 30%;
+    float: left;
+}
+.wo-img {position: relative;}
+ .wo-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: antiquewhite;   
+    top : 0%;
+    padding-top: 120%;
+    padding-left: 35%;
+    opacity: 0;
+}
+.wo-overlay:hover {
+    opacity: 1;
+    transition: 1s;
+}
+.wo-overlay a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(7, 98, 216);
+}
+.wo-ul1 li {  display: inline;}
+.wo-ul1 i {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 40px;
+    padding-left: 7px;
+    background-color: rgb(57, 122, 243);
+    color:#fff; 
+}
+.wo-ul1 {margin: 15px 0px; list-style: none;}
+.wo-ul1 i:hover { background-color: rgb(0, 59, 141);}
+.pa3-text {
+    text-align: center;
+   font-size: 20px;
+   margin-bottom: 40px;
+}
+.pa3 img {
+    width: 100%;
+    height: 100%;
+}
+/* ---------------- end perant 3-------------------------- */
+.pa4{overflow: auto;}
+.pa4-content {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+.pa4ch1 {
+    width: 30%;
+    height: 40%;
+    border: 1px solid gray ;
+    float: left;
+    margin-bottom: 80px;
+    position: relative;
+}
+.c {margin: 0 5%;} 
+.pa4ch1::after {
+    content: "";
+    position: absolute; 
+    background-color: rgb(0, 0, 0);
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+}
+.pa4ch1:hover::after {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.pa4ch1:hover {
+    color: aliceblue;
+    transition: 1s;
+}
+.pa4ch1c {
+    position: absolute;
+    z-index: 2;
+}
+/* ---------------- end perant 4-------------------------- */
+.pa5 {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+}
+.pa5-content {
+    width: 80%;
+    margin: auto;
+    overflow: auto ;
+}
+.pa5-text {
+    color: gray;
+    letter-spacing: 1px;
+    float: left;
+}
+.pa5t1 {margin-bottom: 30px;}
+.pa5-text i {
+    color: aqua;
+    font-size: 25px;
+    line-height: 50px;
+}
+.pa5-img {
+    width: 300px;
+    height: 400px;
+    float: left;
+    margin-left: 400px;
+}
+.pa5-img img {
+    width: 100%;
+    height: 300px;
+}
+.pa5-imge { margin-left: 100px;}
+.pa5-imge i { 
+    font-size: 10px;
+    color: gray;
+    margin-left: 10px;
+}
+.pa5-imge i:hover {color: aqua;}
+/* ---------------- end perant 5-------------------------- */
+.pa6 {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/images\ \(1\).jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    position: relative;
+}
+.pa6-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+}
+.pa6-items {
+    width: 80%;
+    margin: auto;
+}
+.pa6-item {
+    width: 15%;
+    float: left;
+    margin: 10% 5%;
+    color: antiquewhite;
+}
+.pa6-item i {
+    display: block;
+    text-align: center;
+    color: rgb(63, 174, 226);
+    margin-bottom: 7%;
+    font-size: 35px;
+}
+.pa6-item h3,span {
+    display: block;
+    text-align: center;
+}
+/* ---------------- end perant 6-------------------------- */
+.pa7 {
+    width: 100vw;
+    height: 120vh;
+    background-color: rgb(245, 245, 245);
+}
+.pa7-content {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.pa7-item {
+    width: 30%;
+    border: solid 1px gray;
+    float: left;
+    color: gray;
+    text-align: center; 
+    line-height: 30px;
+    position: relative;
+}
+.doller {
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(71, 116, 238);
+    border-radius: 50%;
+    color: black;
+    background-color: #fff;
+    padding: 8% 0;
+    margin: 10% 35%;
+}
+.pa7-p1 {margin: 10% ;}
+.pa7-item button {
+    margin: 10% 0;
+    padding: 6px ;
+    width: 200px;
+    background-color: #fff;
+    border: solid 1px rgb(44, 87, 230);
+}
+.doller h3{font-size:xx-large}
+.pa7-item ul { list-style-type: none;}
+.pa7-item:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.pa7-item:hover:after {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.pa7-item:hover  .pa7-p1  {color: red;transition: 700ms;}
+.pa7-item:hover  .doller  { color: red; transition: 1s;}
+/* ---------------- end perant 7-------------------------- */
+.pa8 {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/staduim.jpg);
+    background-attachment: fixed;
+    background-size: contain;
+    position: relative;
+}
+.pa8-continer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+.pa8-content {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.pa8-item {
+    width: 40%;
+    float: left;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.pa8-image {overflow: auto;}
+.pa8-item img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.pa8-text {
+   float: left;
+   margin-left: 10px;
+   padding-top: 10px;
+}
+.pa8-text h3 { color: #fff;}
+.pa8-text h4 { color: blue;}
+.pa8-p1 {
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: bold ;
+    color: #fff;
+}
+/* ---------------- end perant 8-------------------------- */
+.pa9 {
+    width: 100%;
+    height: 100vh;
+}
+.pa9-content {
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.pa9-item {
+    width: 30%;
+    height: 300px;
+    background-color: rgb(223, 223, 223);
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.pa9-image {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative ;
+} 
+.pa9-image img {width: 100% ; height: 60%;}
+.pa9-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;    
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    z-index: 4;
+}
+.pa9-overlay a { text-decoration: none;}
+.pa9-overlay i {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    margin-left: auto;
+    background-color: rgb(34, 106, 200) ;
+    color: white;
+}
+.pa9-info span {
+    padding: 10;
+    text-transform: uppercase;
+    color: gray;
+}
+.pa9-info {
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.pa9-item:hover   .pa9-overlay {
+    visibility: visible;
+    transition: 1s;  
+}
+.pa9-item:hover .pa9-info h3 {
+    color: #fff;
+    transition: 750ms;
+}
+.pa9-item:hover .pa9-info span {
+    color: blue;
+    transition: 800ms;
+}
+.pa9-item:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.pa9-item:hover:after {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+/* ---------------- end perant 9-------------------------- */
+.pa10 {
+    width: 100vw;
+    overflow: auto;
+}
+.pa10-content {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(241, 241, 241);
+    overflow: auto ;
+}
+.pa10-item {
+    width: 30%;
+    height: 700px;
+    background-color:#fff;
+    float: left;
+    padding: 0 3%;
+    position: relative;
+}
+.pa10-item img {
+    width: 250px;
+    height: 350px;
+}
+.pa10-list li {
+    list-style: none;
+    display: inline;
+    padding : 2px;
+}
+.pa10-list {  padding: 20px 0px;}
+.pa10-item p {padding: 20px 0px;} 
+.pa10-item a {margin-bottom : 10px ; text-decoration: none;}
+.pa10-list i {color: rgb(34, 106, 199);}
+.pa10-item:after {
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    background-color: rgba(51, 190, 233, 0.4);
+}
+.pa10-item:hover:after {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+/* ---------------- end perant 10-------------------------- */
+.footer {
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(61, 51, 51);
+    text-align: center;
+}
+.footer-img {
+    width: 300px;
+    height: 150px;
+    margin-top: 30px;
+}
+.footer-links li {
+    display: inline;
+    margin: 10px 0px;
+}
+.footer-links i {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: rgb(57, 122, 243);
+    color:#fff;
+}
+.footer-links {margin: 15px 0px;}
+.footer-links i:hover { background-color: rgb(0, 59, 141);}
+.footer-info {
+    color: rgb(226, 223, 223);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.owner-info {
+    display: inline;
+    color: gold;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.if {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: rgb(18, 18, 175);
+    padding: 7px;
+    margin: 0 5px;
+}
+.iw {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+    color: white;
+    background-color: green;
+    padding: 7px;
+}
